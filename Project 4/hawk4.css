@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#1f242d;
+    padding:25px;
+
+}
+.container form {
+    width: 800px;
+    padding: 40px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+form .row {
+
+    display: flex;
+     gap: 15px;
+    flex-wrap:wrap;
+}
+.row .column {
+    flex: 1 1 250px;
+}
+.column .title {
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.column .input-box {
+    margin: 15px 0;
+}
+.input-box span {
+    display: block;
+    margin-bottom: 10px;
+
+}
+.input-box input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.column .flex {
+    display: flex;
+    gap: 15px;
+}
+.flex .input-box {
+    margin-top: 5px;
+    
+}
+form .btn {
+    width: 100%;
+    padding: 12px;
+    background-color:#8c2dcc;
+    border: none;
+    outline:none;
+    border-radius: 6px;
+    color:white;
+    margin-top:5px;
+    cursor:pointer;
+    
+}
+form .btn:hover {
+    background-color:#230338;
+}
+.input-box img {
+    height:34px;
+  
+}
